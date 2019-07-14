@@ -19,3 +19,7 @@
 body {
  @apply .bg-blue-light;
 }
+
+a {
+  @apply .cursor-pointer
+}
