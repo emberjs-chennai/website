@@ -15,7 +15,7 @@
 */
 
 export default {
-  // 'transparent': 'transparent',
+  'transparent': 'transparent',
   'blue-dark': '#156F9C',
   'blue-light': '#70AFD0',
   'red-dark': '#b14d38',

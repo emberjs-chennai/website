@@ -33,4 +33,6 @@ export default {
   '64': '16rem',
   'full': '100%',
   'screen': '100vh',
+  'screen-half': '50vh',
+  'screen-three-forth': '65vh',
 };
