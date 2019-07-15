@@ -1,9 +1,9 @@
 <div class="fixed w-full z-50 border-b bg-blue-dark py-4 px-2">
   <div class="container mx-auto">
     <nav class="flex items-center justify-between flex-wrap">
-      <div class="flex items-center flex-no-shrink text-white mr-6">
+      <LinkTo @route="index" class="flex items-center flex-no-shrink text-white no-underline mr-6">
         <span class="font-semibold text-xl tracking-tight">EmberJS Chennai</span>
-      </div>
+      </LinkTo>
       <div class="block sm:hidden">
         <button
           class="navbar-burger flex items-center px-3 py-2 border rounded text-white border-white hover:text-white hover:border-white"
@@ -15,10 +15,11 @@
         </button>
       </div>
       <div id="main-nav" class="w-full flex-grow justify-end sm:flex items-center sm:w-auto hidden">
-        <a href="#"
-          class="no-underline font-bold block mt-4 sm:mt-0 sm:inline-block text-grey-light hover:text-yellow mr-4">
+        <LinkTo 
+            @route="schedule" 
+            class="no-underline font-bold block mt-4 sm:mt-0 sm:inline-block text-grey-light hover:text-yellow mr-4">
           Schedule
-        </a>
+        </LinkTo>
         <a href="#"
           class="no-underline font-bold block mt-4 sm:mt-0 sm:inline-block text-grey-light hover:text-yellow mr-4">
           Speakers

@@ -21,5 +21,9 @@ body {
 }
 
 a {
-  @apply .cursor-pointer
+  @apply .cursor-pointer;
+}
+
+.innter-stroke-current path {
+  @apply .stroke-current;
 }
