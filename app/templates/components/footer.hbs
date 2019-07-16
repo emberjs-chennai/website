@@ -1,9 +1,11 @@
-<div id="ember-chennai-footer" class="w-full z-50 bg-blue-dark py-4 px-2 relative">
+<div id="ember-chennai-footer" class="w-full z-50 bg-blue-dark py-4 px-2 mt-auto relative">
   <div class="container mx-auto">
     <div class="flex justify-center text-white mb-3 mt-2">
       <a class="pr-5"> code of conduct </a>
       <div> * </div>
-      <a class="pl-5">  FAQs </a>
+      <LinkTo @route="faq" class="no-underline pl-5"> 
+       <span class="text-white">FAQs</span> 
+       </LinkTo>
     </div>
     <div class="flex justify-center text-white text-xs">
       emberjs-chennai@2019
