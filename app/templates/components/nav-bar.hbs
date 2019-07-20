@@ -15,7 +15,7 @@
         </button>
       </div>
       <div id="main-nav" 
-          class="w-full flex-grow justify-end sm:flex items-center sm:w-auto {{unless isExpanded 'hidden'}}">
+          class="w-full flex-grow justify-end sm:flex items-center sm:w-auto {{unless this.isExpanded "hidden"}}">
         <div {{on "click" this.toggleExpanded}}>
           <LinkTo
               @route="schedule" 
