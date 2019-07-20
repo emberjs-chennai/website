@@ -46,6 +46,7 @@
     "ember-service-worker": "^0.8.0",
     "ember-service-worker-asset-cache": "^0.6.4",
     "ember-service-worker-cache-fallback": "^0.6.2",
+    "ember-service-worker-index": "^0.7.0",
     "ember-source": "https://s3.amazonaws.com/builds.emberjs.com/canary/shas/70d4b72ad320d9840125569793e40721fe68700f.tgz",
     "ember-svg-jar": "^1.2.2",
     "ember-web-app": "^3.0.0-beta.4",

@@ -20,7 +20,7 @@ module.exports = function(defaults) {
       versionStrategy: 'project-revision'
     },
     'esw-cache-fallback': {
-      patterns: ['/'],
+      patterns: ['/(.+)',],
     }
   });
   return app.toTree();
