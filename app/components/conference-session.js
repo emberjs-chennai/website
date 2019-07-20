@@ -13,8 +13,8 @@ export default class ConferenceSessionComponent extends Component {
     return !this.isBreak && (this.args.pos % 2) === 0;
   }
 
-  get isBreak() {
-    return this.args.session.isBreak;
+  get isExpandable() {
+    return this.args.session.isBreak || !this.args.session.topicDesc;
   }
 
   get svgIconName() {

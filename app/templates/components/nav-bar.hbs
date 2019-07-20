@@ -14,27 +14,36 @@
           </svg>
         </button>
       </div>
-      <div id="main-nav" class="w-full flex-grow justify-end sm:flex items-center sm:w-auto hidden">
-        <LinkTo 
-            @route="schedule" 
+      <div id="main-nav" 
+          class="w-full flex-grow justify-end sm:flex items-center sm:w-auto {{unless isExpanded 'hidden'}}">
+        <div {{on "click" this.toggleExpanded}}>
+          <LinkTo
+              @route="schedule" 
+              class="no-underline font-bold block mt-4 sm:mt-0 sm:inline-block text-grey-light hover:text-yellow mr-4">
+            Schedule
+          </LinkTo>
+        </div>
+        <div {{on "click" this.toggleExpanded}}>
+          <LinkTo
+            @route="location" 
             class="no-underline font-bold block mt-4 sm:mt-0 sm:inline-block text-grey-light hover:text-yellow mr-4">
-          Schedule
-        </LinkTo>
-        <LinkTo
-          @route="location" 
-          class="no-underline font-bold block mt-4 sm:mt-0 sm:inline-block text-grey-light hover:text-yellow mr-4">
-          Location
-        </LinkTo>
-        <LinkTo
-          @route="about" 
-          class="no-underline font-bold block mt-4 sm:mt-0 sm:inline-block text-grey-light hover:text-yellow mr-4">
-          About
-        </LinkTo>
-        <LinkTo
-          @route="sponsors" 
-          class="no-underline font-bold block mt-4 sm:mt-0 sm:inline-block text-grey-light hover:text-yellow mr-4">
-          Sponsors
-        </LinkTo>
+            Location
+          </LinkTo>
+        </div>
+        <div {{on "click" this.toggleExpanded}}>
+          <LinkTo
+            @route="about" 
+            class="no-underline font-bold block mt-4 sm:mt-0 sm:inline-block text-grey-light hover:text-yellow mr-4">
+            About
+          </LinkTo>
+        </div>
+        <div {{on "click" this.toggleExpanded}}>
+          <LinkTo
+            @route="sponsors" 
+            class="no-underline font-bold block mt-4 sm:mt-0 sm:inline-block text-grey-light hover:text-yellow mr-4">
+            Sponsors
+          </LinkTo>
+        </div>
       </div>
     </nav>
   </div>

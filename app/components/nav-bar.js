@@ -1,12 +1,12 @@
 import Component from '@glimmer/component';
 import { action } from '@ember/object';
+import { tracked } from '@glimmer/tracking';
 
 export default class NavBarComponent extends Component {
+  @tracked isExpanded = false;
+
   @action
   toggleExpanded() {
-    // Get the "main-nav" element
-    let $target = document.getElementById('main-nav');
-    // Toggle the class on "main-nav"
-    $target.classList.toggle('hidden');
+    this.isExpanded = !this.isExpanded;
   }
 }
