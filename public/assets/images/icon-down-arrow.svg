@@ -1,10 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 52 (66869) - http://www.bohemiancoding.com/sketch -->
-    <desc>Created with Sketch.</desc>
-    <g id="down-14x14" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g transform="translate(3.000000, 5.000000)" id="Shape" stroke="#000000">
-            <polyline points="0 0 4 4 8 0"></polyline>
-        </g>
-    </g>
-</svg>
+<svg viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg"><path d="m0 0 4 4 4-4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" transform="translate(3 5)"/></svg>
