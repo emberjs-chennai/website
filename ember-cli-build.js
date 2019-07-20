@@ -20,7 +20,10 @@ module.exports = function(defaults) {
       versionStrategy: 'project-revision'
     },
     'esw-cache-fallback': {
-      patterns: ['/(.+)',],
+      patterns: [
+        '/(.*)',
+        'https://emberjs-chennai.netlify.com/(.*)'
+      ],
     }
   });
   return app.toTree();
