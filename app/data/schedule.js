@@ -16,9 +16,9 @@ export default [
   {
     startTime: "10:30 am",
     endTime: "11:00 am",
-    name: "comming soon",
+    name: "coming soon",
     speaker: "",
-    speakerPic: "assets/images/comming-soon.png",
+    speakerPic: "assets/images/coming-soon.png",
     topicDesc: ""
   },
   {
@@ -62,9 +62,9 @@ export default [
   {
     startTime: "02:00 pm",
     endTime: "02:30 pm",
-    name: "Comming soon..",
+    name: "Coming soon..",
     speaker: "",
-    speakerPic: "assets/images/comming-soon.png",
+    speakerPic: "assets/images/coming-soon.png",
     topicDesc: ""
   },
   {
@@ -72,7 +72,7 @@ export default [
     endTime: "03:00 pm",
     name: "Closing keynote",
     speaker: "",
-    speakerPic: "assets/images/comming-soon.png",
+    speakerPic: "assets/images/coming-soon.png",
     topicDesc: ""
   }
 ]
