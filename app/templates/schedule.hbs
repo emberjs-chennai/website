@@ -1,0 +1,7 @@
+<PageTitle @titleText="Schedule August 3rd"/>
+
+<div class="container mx-auto flex flex-col mb-24 mt-10">
+  {{#each this.scheduleList as |session index|}}
+    <ConferenceSession @session={{session}} @pos={{index}}/>
+  {{/each}}
+</div>
