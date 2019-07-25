@@ -12,6 +12,7 @@ Router.map(function() {
   this.route('about');
   this.route('sponsors');
   this.route('faq');
+  this.route('code-of-conduct');
 });
 
 export default Router;
