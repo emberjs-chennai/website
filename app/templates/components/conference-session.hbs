@@ -2,7 +2,7 @@
     class={{concat "w-full border-grey-light border flex flex-col p-2 pl-3 pr-3 cursor-pointer"
     (if this.isOddSession " bg-yellow")
     (if this.isEvenSession " bg-blue-dark text-grey-light")
-    (if @session.isBreak " bg-grey-light")}}
+    (if @session.isBreak " bg-grey-light text-black")}}
     {{on "click" this.toggleExpand}}>
   <div class="flex w-full">
     <div class="w-32 flex flex-col text-sm md:text-base lg:text-lg">

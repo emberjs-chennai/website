@@ -1,21 +1,20 @@
 # chennai-ember-website
  
- This is the repo for emberjs chennai website.
+ This is the repo for Chennai EmberJS website.
  This repo also acts as a showcase of latest ember features
 
- ## Features includes
+ ## Features include
 * [Ember Octane](https://emberjs.github.io/rfcs/0364-roadmap-2018.html#ember-octane)
-  - [ ] [Native Classes](https://blog.emberjs.com/2019/02/11/coming-soon-in-ember-octane-part-1.html)
-  - [ ] [Angle Brackets & Named Arguments](https://blog.emberjs.com/2019/02/19/coming-soon-in-ember-octane-part-2.html)
-  - [ ] [Tracked Properties](https://blog.emberjs.com/2019/02/26/coming-soon-in-ember-octane-part-3.html)
-  - [ ] [Element Modifiers](https://blog.emberjs.com/2019/03/06/coming-soon-in-ember-octane-part-4.html)
-  - [ ] [Glimmer Components](https://www.pzuraq.com/coming-soon-in-ember-octane-part-5-glimmer-components/)
+  - [Native Classes](https://blog.emberjs.com/2019/02/11/coming-soon-in-ember-octane-part-1.html)
+  - [Angle Brackets & Named Arguments](https://blog.emberjs.com/2019/02/19/coming-soon-in-ember-octane-part-2.html)
+  - [Tracked Properties](https://blog.emberjs.com/2019/02/26/coming-soon-in-ember-octane-part-3.html)
+  - [Element Modifiers](https://blog.emberjs.com/2019/03/06/coming-soon-in-ember-octane-part-4.html)
+  - [Glimmer Components](https://www.pzuraq.com/coming-soon-in-ember-octane-part-5-glimmer-components/)
 
-- [ ] [embroider](https://github.com/embroider-build/embroider)
-- [ ] [Progressive Web App](https://madhatted.com/2017/6/16/building-a-progressive-web-app-with-ember)
-- [ ] [Fastboot Rehydration](https://github.com/ember-fastboot/fastboot/pull/185)
-- [ ] [ES5 Getters](https://emberjs.github.io/rfcs/0281-es5-getters.html)
-- [ ] [No jQuery](https://emberjs.github.io/rfcs/0294-optional-jquery.html)
+- [Progressive Web App](https://madhatted.com/2017/6/16/building-a-progressive-web-app-with-ember)
+- [Fastboot Rehydration](https://github.com/ember-fastboot/fastboot/pull/185)
+- [ES5 Getters](https://emberjs.github.io/rfcs/0281-es5-getters.html)
+- [No jQuery](https://emberjs.github.io/rfcs/0294-optional-jquery.html)
 
 ## Prerequisites
 
