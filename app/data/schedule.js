@@ -10,7 +10,7 @@ export default [
     endTime: "",
     name: "Octane: Why and How",
     speaker: "Gokul Kathirvel",
-    speakerPic: "assets/images/gokul.png",
+    speakerPic: "assets/images/gokul.jpg",
     topicDesc: "A Talk about how Ember Octane, a new edition of Ember.js will help frontend developers to spin modern web apps really easily and quickly. You'll know how the Octane edition utilizes the native platform features like ES Classes, decorators, etc., effectively to write modern apps and how the entire framework aligns itself with the native ecosystem."
   },
   {
@@ -18,7 +18,7 @@ export default [
     endTime: "",
     name: "Differential bundling of assets in Ember",
     speaker: "Sivasubramanyam A",
-    speakerPic: "assets/images/Sivasubramanyam_A.jpeg",
+    speakerPic: "assets/images/siva.jpg",
     topicDesc: "This talk proposes a technique to serve different bundles of app assets transpiled according to the user's browser. This results in a reduced bundle size and faster parsing."
   },
   {
@@ -34,7 +34,7 @@ export default [
     endTime: "",
     name: "Ember Accessibility",
     speaker: "Kandha Vivek Raj K",
-    speakerPic: "assets/images/kandha-vivek-raj.png",
+    speakerPic: "assets/images/vivek.jpg",
     topicDesc: "Accessibility is an important aspect of applications. This add-on makes it easy to develop accessible apps by providing contextual feedback wherever necessary."
   },
   {
