@@ -1,0 +1,56 @@
+<div ...attributes
+    class={{concat "w-full border-grey-light border flex flex-col p-2 pl-3 pr-3 cursor-pointer"
+    (if this.isOddSession " bg-yellow")
+    (if this.isEvenSession " bg-blue-dark text-grey-light")
+    (if @session.isBreak " bg-grey-light text-black")}}
+    {{on "click" this.toggleExpand}}>
+  <div class="flex w-full">
+    <div class="w-32 flex flex-col text-sm md:text-base lg:text-lg">
+      <div class="mb-2">
+        {{@session.startTime}}
+      </div>
+      <div>
+        {{@session.endTime}}
+      </div>
+    </div>
+
+    <div class="w-full flex flex-col items-start {{if @session.speaker "justify-between" "justify-center"}}">
+      <div class="text-lg md:text-xl lg:text-2xl">
+        {{@session.name}}
+      </div>
+      {{#if @session.speaker}}
+        <div class="text-xs md:text-sm lg:text-base">
+          {{@session.speaker}}
+        </div>
+      {{/if}}
+    </div>
+
+    <div class="w-16 flex items-center justify-end">
+      {{#unless this.isExpandable}}
+        {{svg-jar this.svgIconName class="w-6 lg:w-8 innter-stroke-current"}}
+      {{/unless}}
+    </div>
+  </div>
+  {{#if this.isExpanded}}
+    {{#if @session.topicDesc}}
+      <div class="flex w-full mt-2">
+        <div class="w-32">
+        </div>
+        
+        <div class="w-full flex justify-start">
+          {{#if @session.speakerPic}}
+            <div class="mr-1 w-1/5 md:w-1/6">
+              <img src="/{{@session.speakerPic}}" class="object-cover" alt="">
+            </div>
+          {{/if}}
+          
+          <div class="flex-1 text-xs md:text-base lg:text-lg">
+            {{@session.topicDesc}}
+          </div>
+        </div>
+        
+        <div class="w-16"></div>
+      </div>
+    {{/if}}
+  {{/if}}
+</div>

@@ -1,0 +1,18 @@
+#ember-chennai-footer::before {
+  height: calc(11rem / 2);
+  width: calc(15.5rem / 2);
+  background-image: url("images/footer-zoey.png");
+  position: absolute;
+  top: -4.5rem;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  margin-right: auto;
+  margin-bottom: -3rem;
+  margin-left: auto;
+  z-index: 1;
+  content: '';
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: block;
+}
