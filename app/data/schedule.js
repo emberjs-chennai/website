@@ -8,7 +8,7 @@ export default [
   {
     startTime: "10:00 am",
     endTime: "10:30 am",
-    name: "Octane: Why and How",
+    name: "Octane: Why and How?",
     speaker: "Gokul Kathirvel",
     speakerPic: "assets/images/gokul.jpg",
     topicDesc: "A Talk about how Ember Octane, a new edition of Ember.js will help frontend developers to spin modern web apps really easily and quickly. You'll know how the Octane edition utilizes the native platform features like ES Classes, decorators, etc., effectively to write modern apps and how the entire framework aligns itself with the native ecosystem."
