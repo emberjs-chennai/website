@@ -22,7 +22,7 @@ module.exports = function(defaults) {
     'esw-cache-fallback': {
       patterns: [
         '/(.*)',
-        'https://emberjs-chennai.netlify.com/(.*)'
+        'https://chennaiemberjs.in/(.*)'
       ],
     }
   });

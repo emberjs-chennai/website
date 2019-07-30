@@ -5,7 +5,7 @@ module.exports = function(/* environment, appConfig */) {
   // supported properties
 
   return {
-    "name": "EmberJS Chennai",
+    "name": "Chennai EmberJS",
     "short_name": "Ember Chennai",
     "theme_color": "#b14d38",
     "background_color": "#70afd0",
