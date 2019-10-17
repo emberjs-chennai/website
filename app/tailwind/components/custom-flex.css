@@ -1,8 +1,0 @@
-.flex-full-center {
-  @apply .flex .justify-center .items-center
-}
-
-.flex-full-center-col {
-  @apply .flex .flex-col .justify-center .items-center
-}
-
