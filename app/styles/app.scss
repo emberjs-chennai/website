@@ -1,4 +1,9 @@
-@import 'tailwind';
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+// Custom made tailwind components and overrides
+@import "tailwind-components";
 
 html,
 body {
