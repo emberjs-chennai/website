@@ -12,6 +12,7 @@ module.exports = function(defaults) {
       content: [
         './app/index.html',
         './app/templates/**/*.hbs',
+        './app/components/**/*.hbs' // New component template co-location
       ],
       whitelist: [],
       whitelistPatterns: [],

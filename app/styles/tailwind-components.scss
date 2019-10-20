@@ -10,6 +10,14 @@
   @apply .stroke-current;
 }
 
+.btn  {
+  @apply inline-block font-bold rounded-full py-4 px-8 uppercase no-underline;
+}
+
+.primary-btn  {
+  @apply bg-amber border-amber text-white;
+}
+
 h1 {
   @apply .text-5xl .font-semibold
 }

@@ -24,13 +24,15 @@ module.exports = {
       'violet': '#653881',
       'brown': 'rgba(27, 27, 27, 0.78)',
       'amber': '#df5e49',
-      'amber-light': '#ffbaae',
+      'amber-light': '#ffbaae'
     },
     borderColor: theme => ({
       default: theme('colors.grey-light'),
       ...theme('colors'),
     })
   },
-  variants: {},
+  variants: {
+    borderWidth: ['responsive', 'last']
+  },
   plugins: []
 };

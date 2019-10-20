@@ -1,0 +1,23 @@
+<div class="container mx-auto">
+  {{#each scheduleList as |talkDetail|}}
+
+    <div class="flex border-black border-0 border-t py-5 text-xl last:border-b">
+      <span class="sm:w-1/6 w-2/6 inline-block">
+        {{talkDetail.startTime}}
+
+        <span class="block sm:hidden"> {{talkDetail.endTime}} </span>
+      </span>
+      <span class="w-4/6 inline-block">
+        {{talkDetail.name}}
+
+        {{#if talkDetail.speaker}}
+          <div class="sm:inline-block block">
+            by <span class="text-white">{{talkDetail.speaker}}</span>
+          </div>
+        {{/if}}
+      </span>
+      <span class="sm:w-1/6 w-full hidden sm:inline-block">{{talkDetail.endTime}}</span>
+    </div>
+
+  {{/each}}
+</div>

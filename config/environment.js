@@ -23,7 +23,7 @@ module.exports = function(environment) {
       // when it is created
     },
     fastboot: {
-      hostWhitelist: [/^localhost:\d+$/]
+      hostWhitelist: [/^localhost:\d+$/, /(.*).gitpod.io$/]
     }
   };
 
