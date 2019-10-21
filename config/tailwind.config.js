@@ -24,7 +24,8 @@ module.exports = {
       'violet': '#653881',
       'brown': 'rgba(27, 27, 27, 0.78)',
       'amber': '#df5e49',
-      'amber-light': '#ffbaae'
+      'amber-light': '#ffbaae',
+      'amber-medium': '#E39774'
     },
     borderColor: theme => ({
       default: theme('colors.grey-light'),

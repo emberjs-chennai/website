@@ -3,6 +3,7 @@
 
 const EmberApp = require('ember-cli/lib/broccoli/ember-app');
 const crawl = require('prember-crawler');
+const isProduction = process.env.EMBER_ENV === 'production';
 
 module.exports = function(defaults) {
 
@@ -53,6 +54,7 @@ module.exports = function(defaults) {
       ]
     },
     'ember-service-worker': {
+      enabled: isProduction,
       registrationStrategy: 'inline',
       versionStrategy: 'project-revision'
     },
