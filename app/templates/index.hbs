@@ -1,23 +1,47 @@
-<div class="relative mt-12">
-  <div class="hero-section relative text-center pt-32 pb-16 z-10 h-screen">
-    <div class="container mx-auto inline-block my-24">
-      <h1 class="mb-2 mx-auto inline-block">
-        <span class="uppercase text-white">EmberJS Chennai Chapter</span>
+<div class="hero-section relative mt-12 min-h-screen">
+  <div class="text-center pt-20
+      md:pt-32 pb-16">
+    <div class="container mx-auto inline-block my-20
+        md:my-24">
+      <div class="mb-2 mx-auto inline-block font-semibold">
+        <span class="uppercase text-white text-4xl
+            md:text-5xl">
+          EmberJS
+          <span class="inline md:hidden lg:hidden">&nbsp;</span>
+          Chennai
+          <span class="hidden sm:inline">Chapter</span>
+        </span>
         <div class="clearfix"></div>
-        <div class="text-3xl text-amber-light inline-block float-left font-normal">9th November 2019</div>
-        <div class="text-3xl text-amber-light inline-block float-right font-normal">Freshworks, Chennai, IN</div>
-      </h1>
+        <div class="text-amber-light inline-block float-left font-normal text-xs
+            sm:text-sm
+            md:text-xl
+            lg:text-3xl">
+          9th November 2019
+        </div>
+        <div class="text-amber-light inline-block float-right font-normal text-xs
+            sm:text-sm
+            md:text-xl
+            lg:text-3xl">
+          Freshworks, Chennai, IN
+        </div>
+      </div>
     </div>
     <div class="clearfix"></div>
-    <a class="btn primary-btn mb-24" href="https://www.meetup.com/EmberJS-Chennai/events/265579607/" target="_blank" rel="noopener">
+    <a class="btn primary-btn" 
+        href="https://www.meetup.com/EmberJS-Chennai/events/265579607/" target="_blank" rel="noopener">
       RSVP for meetup
     </a>
   </div>
-  <img class="absolute pin-b" src="assets/images/hero-bg.svg" style="bottom: -4rem" alt="hero-image">
-  
-  <svg viewBox="0 0 1441 85" fill="none" xmlns="http://www.w3.org/2000/svg" 
-      class="absolute pin-b h-32 z-10 w-full h-auto"
-      style="bottom: -2.5rem">
+
+  <img class="hero-image absolute bottom-0 w-full z-10
+      md:z-negative" 
+    src="assets/images/chennai.png" 
+    alt="hero-image">
+</div>
+
+<div class="hero-footer hidden
+    md:block">
+  <svg viewBox="0 0 1441 85" fill="none" xmlns="http://www.w3.org/2000/svg" class="pin-b h-32 z-10 w-full h-auto">
     <path d="M0 38.5L459.5 0L1176 46L1441 0V85H706H0V38.5Z" fill="#FDFDFD" />
   </svg>
 </div>

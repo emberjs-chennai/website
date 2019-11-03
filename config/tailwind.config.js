@@ -1,16 +1,5 @@
 module.exports = {
   theme: {
-    fontSize: {
-      'xs': '.75rem',
-      'sm': '.875rem',
-      'base': '1rem',
-      'lg': '1.125rem',
-      'xl': '1.25rem',
-      '2xl': '1.5rem',
-      '3xl': '2rem',
-      '4xl': '2.25rem',
-      '5xl': '4.5rem'
-    },
     colors: {
       'transparent': 'transparent',
       'blue-dark': '#156F9C',
@@ -26,6 +15,11 @@ module.exports = {
       'amber': '#df5e49',
       'amber-light': '#ffbaae',
       'amber-medium': '#E39774'
+    },
+    extend: {
+      zIndex: {
+        'negative': -1,
+      }
     },
     borderColor: theme => ({
       default: theme('colors.grey-light'),
