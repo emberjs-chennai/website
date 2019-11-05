@@ -45,7 +45,15 @@ module.exports = function(defaults) {
       }
     },
     prember: {
-      urls: crawl
+      urls: async function ({ visit }) {
+        let productURLs = await crawl({
+          visit,
+          startingFrom: ['/']
+        });
+        let otherURLs = ['/schedule'];
+
+        return productURLs.concat(otherURLs);
+      }
     },
     'asset-cache': {
       include: [
