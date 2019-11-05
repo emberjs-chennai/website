@@ -14,34 +14,27 @@
           </svg>
         </button>
       </div>
-      <div id="main-nav" 
+      <div id="main-nav"
           class="w-full flex-grow justify-end sm:flex items-center sm:w-auto {{unless this.isExpanded "hidden"}}">
         <div {{on "click" this.toggleExpanded}}>
           <LinkTo
-              @route="schedule" 
+              @route="schedule"
               class="no-underline font-bold block mt-4 sm:mt-0 sm:inline-block text-grey-light hover:text-yellow mr-4">
             Schedule
           </LinkTo>
         </div>
         <div {{on "click" this.toggleExpanded}}>
           <LinkTo
-            @route="location" 
+            @route="location"
             class="no-underline font-bold block mt-4 sm:mt-0 sm:inline-block text-grey-light hover:text-yellow mr-4">
             Location
           </LinkTo>
         </div>
         <div {{on "click" this.toggleExpanded}}>
           <LinkTo
-            @route="about" 
+            @route="about"
             class="no-underline font-bold block mt-4 sm:mt-0 sm:inline-block text-grey-light hover:text-yellow mr-4">
             About
-          </LinkTo>
-        </div>
-        <div {{on "click" this.toggleExpanded}}>
-          <LinkTo
-            @route="sponsors" 
-            class="no-underline font-bold block mt-4 sm:mt-0 sm:inline-block text-grey-light hover:text-yellow mr-4">
-            Sponsors
           </LinkTo>
         </div>
       </div>
