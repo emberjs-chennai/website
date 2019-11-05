@@ -17,11 +17,11 @@
       <div id="main-nav"
           class="w-full flex-grow justify-end sm:flex items-center sm:w-auto {{unless this.isExpanded "hidden"}}">
         <div {{on "click" this.toggleExpanded}}>
-          <LinkTo
+          {{!-- <LinkTo
               @route="schedule"
               class="no-underline font-bold block mt-4 sm:mt-0 sm:inline-block text-grey-light hover:text-yellow mr-4">
             Schedule
-          </LinkTo>
+          </LinkTo> --}}
         </div>
         <div {{on "click" this.toggleExpanded}}>
           <LinkTo
