@@ -52,7 +52,7 @@ export default [
   {
     startTime: "12:00 pm",
     endTime: "12:30 pm",
-    name: "Building Testable & Performant Ember Apps",
+    name: "Profiling your applications for incremental code change",
     speaker: "Dilip Kushwaha, Manu Pandit",
     speakerPic: "",
     topicDesc: ""
