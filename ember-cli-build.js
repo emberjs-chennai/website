@@ -3,11 +3,57 @@
 
 const EmberApp = require('ember-cli/lib/broccoli/ember-app');
 const crawl = require('prember-crawler');
+const isProduction = process.env.EMBER_ENV === 'production';
 
 module.exports = function(defaults) {
+
+  const purgeCSSConfig = {
+    module: require('@fullhuman/postcss-purgecss'),
+    options: {
+      content: [
+        './app/index.html',
+        './app/templates/**/*.hbs',
+        './app/components/**/*.hbs' // New component template co-location
+      ],
+      whitelist: [],
+      whitelistPatterns: [],
+
+      // Common extractor for tailwind css class names in the provided content
+      defaultExtractor: content => content.match(/[A-Za-z0-9-_:/]+/g) || []
+    }
+  };
+
   let app = new EmberApp(defaults, {
+    postcssOptions: {
+      compile: {
+        extension: 'scss',
+        enabled: true,
+        parser: require('postcss-scss'),
+        plugins: [
+          {
+            module: require('@csstools/postcss-sass'),
+            options: {
+              includePaths: [
+                // To pull up the styles from TailwindCSS and other tp packages
+                'node_modules'
+              ]
+            }
+          },
+          require('tailwindcss')('./config/tailwind.config.js'),
+          purgeCSSConfig
+        ]
+      }
+    },
     prember: {
-      urls: crawl
+      urls: async function ({ visit }) {
+        let productURLs = await crawl({
+          visit,
+          startingFrom: ['/']
+        });
+        let otherURLs = ['/schedule'];
+
+        return productURLs.concat(otherURLs);
+      }
     },
     'asset-cache': {
       include: [
@@ -16,6 +62,7 @@ module.exports = function(defaults) {
       ]
     },
     'ember-service-worker': {
+      enabled: isProduction,
       registrationStrategy: 'inline',
       versionStrategy: 'project-revision'
     },

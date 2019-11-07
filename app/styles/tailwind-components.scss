@@ -1,0 +1,47 @@
+.flex-full-center {
+  @apply .flex .justify-center .items-center
+}
+
+.flex-full-center-col {
+  @apply .flex .flex-col .justify-center .items-center
+}
+
+.innter-stroke-current path {
+  @apply .stroke-current;
+}
+
+.btn  {
+  @apply inline-block font-bold rounded-full py-4 px-8 uppercase no-underline;
+}
+
+.primary-btn  {
+  @apply bg-amber border-amber text-white;
+}
+
+h1 {
+  @apply .text-5xl .font-semibold
+}
+
+h2 {
+  @apply .text-4xl .font-bold
+}
+
+h3 {
+  @apply .text-3xl .font-bold
+}
+
+h4 {
+  @apply .text-2xl .font-bold
+}
+
+h5 {
+  @apply .text-xl .font-bold
+}
+
+body {
+ @apply .bg-white;
+}
+
+a {
+  @apply .cursor-pointer;
+}
