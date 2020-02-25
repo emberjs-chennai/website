@@ -1,50 +1,58 @@
 export default [
   {
-    startTime: "09:00 am",
+    startTime: "09:15 am",
     endTime: "09:45 am",
-    name: "Registration",
-    topicDesc: "Register your-self at the desk outside Freshworks ground floor cafeteria."
+    name: "Check-in",
+    topicDesc: "Check-in yourself at the desk outside Freshworks third floor cafeteria."
   },
   {
     startTime: "10:00 am",
     endTime: "10:30 am",
-    name: "Write Tests Like a Mathematician",
-    speaker: "Isaac Lee",
+    name: "Web development - The Past and the Present",
+    speaker: "Namburu Venkata Jaya Krishna",
     speakerPic: "",
     topicDesc: ""
   },
   {
     startTime: "10:30 am",
-    endTime: "11:00 am",
-    name: "Building Real Time Applications with Ember",
-    speaker: "Sivasubramanyam A",
+    endTime: "10:40 am",
+    name: "Picking a framework: React vs Angular vs Vue vs Ember",
+    speaker: "Michael Dinesh",
     speakerPic: "",
     topicDesc: ""
   },
   {
-    startTime: "11:00 am",
-    endTime: "11:10 am",
+    startTime: "10:40 am",
+    endTime: "10:50 am",
+    name: "Ember runloop",
+    speaker: "Raja S",
+    speakerPic: "",
+    topicDesc: ""
+  },
+  {
+    startTime: "10:50 am",
+    endTime: "11:00 pm",
     name: "Break",
     isBreak: true
   },
   {
     startTime: "11:00 am",
-    endTime: "11:25 pm",
-    name: "'Clean Code' in Ember world",
-    speaker: "VasanthaKumar",
+    endTime: "11:25 am",
+    name: "Ember Model & Relationships",
+    speaker: "Ahamed Althaf",
     speakerPic: "",
     topicDesc: ""
   },
   {
     startTime: "11:25 am",
-    endTime: "11:45 am",
-    name: "A safe journey from Component to Add-on!",
-    speaker: "Varun Ananth",
+    endTime: "11:50 am",
+    name: "Frame communication with ember",
+    speaker: "Kishore Kumar",
     speakerPic: "",
     topicDesc: ""
   },
   {
-    startTime: "11:45 am",
+    startTime: "11:50 am",
     endTime: "12:00 pm",
     name: "Break",
     isBreak: true
@@ -52,16 +60,16 @@ export default [
   {
     startTime: "12:00 pm",
     endTime: "12:30 pm",
-    name: "Profiling your applications for incremental code change",
-    speaker: "Dilip Kushwaha, Manu Pandit",
+    name: "Design Systems using Storybook",
+    speaker: "Prasanth Lalapeta",
     speakerPic: "",
     topicDesc: ""
   },
   {
     startTime: "12:30 pm",
     endTime: "01:00 pm",
-    name: "Detect and fix leaks",
-    speaker: "Kandha Vivek Raj",
+    name: "Finite State Machines and Ember",
+    speaker: "Sankar Ganesh",
     speakerPic: "",
     topicDesc: ""
   }
