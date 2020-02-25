@@ -1,15 +1,15 @@
 export default [
   {
-    startTime: "09:00 am",
-    endTime: "09:30 am",
-    name: "Registration",
-    topicDesc: "Register your-self at the desk outside Freshworks third floor cafeteria."
+    startTime: "09:15 am",
+    endTime: "09:45 am",
+    name: "Check-in",
+    topicDesc: "Check-in yourself at the desk outside Freshworks third floor cafeteria."
   },
   {
     startTime: "10:00 am",
     endTime: "10:30 am",
-    name: "Web development - the past and the future",
-    speaker: "Namburu Venkata",
+    name: "Web development - The Past and the Present",
+    speaker: "Namburu Venkata Jaya Krishna",
     speakerPic: "",
     topicDesc: ""
   },
@@ -25,7 +25,7 @@ export default [
     startTime: "10:40 am",
     endTime: "10:50 am",
     name: "Ember runloop",
-    speaker: "Raja",
+    speaker: "Raja S",
     speakerPic: "",
     topicDesc: ""
   },
@@ -38,7 +38,7 @@ export default [
   {
     startTime: "11:00 am",
     endTime: "11:25 am",
-    name: "Ember model and Relationships",
+    name: "Ember Model & Relationships",
     speaker: "Ahamed Althaf",
     speakerPic: "",
     topicDesc: ""
@@ -60,8 +60,8 @@ export default [
   {
     startTime: "12:00 pm",
     endTime: "12:30 pm",
-    name: "Design systems using Storybook",
-    speaker: "Prasanth, Fidisys",
+    name: "Design Systems using Storybook",
+    speaker: "Prasanth Lalapeta",
     speakerPic: "",
     topicDesc: ""
   },
