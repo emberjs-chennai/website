@@ -1,5 +1,5 @@
 <div class="container mx-auto">
-  {{#each scheduleList as |talkDetail|}}
+  {{#each this.scheduleList as |talkDetail|}}
 
     <div class="flex border-black border-0 border-t py-5 text-xl last:border-b flex-col items-center
         md:flex-row">
@@ -9,22 +9,21 @@
 
         <span class="inline md:hidden"> - {{talkDetail.endTime}} </span>
       </span>
-      
-      <span class="inline-block my-5 w-full flex flex-col items-center
-          md:w-4/6 md:inline">
-          <span class="text-center">
-            {{talkDetail.name}}
-          </span>
+
+      <span class="inline-block my-5 w-full flex flex-col items-center md:w-4/6 md:inline">
+        <span class="text-center">
+          {{talkDetail.title}}
+        </span>
 
         {{#if talkDetail.speaker}}
           <div class="text-white md:inline">
-            <span class="hidden md:inline">&nbsp; - </span>
+            <span class="hidden md:inline text-grey-dark">&nbsp;&nbsp; by </span>
             {{talkDetail.speaker}}
           </div>
         {{/if}}
       </span>
 
-      <span class="text-grey-dark hidden w-1/6 
+      <span class="text-grey-dark hidden w-1/6
           md:inline-block">
         {{talkDetail.endTime}}
       </span>

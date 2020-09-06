@@ -1,3 +1,6 @@
+const defaultTheme = require('tailwindcss/defaultTheme');
+const isProduction = process.env.EMBER_ENV === 'production';
+
 module.exports = {
   theme: {
     colors: {
@@ -13,12 +16,19 @@ module.exports = {
       'violet': '#653881',
       'brown': 'rgba(27, 27, 27, 0.78)',
       'amber': '#df5e49',
+      'soft-amber': '#d8cdb9',
       'amber-light': '#ffbaae',
-      'amber-medium': '#E39774'
+      'amber-medium': '#E39774',
+      'ember': '#E04E39',
+      'dark-teal': '#326273'
     },
     extend: {
       zIndex: {
         'negative': -1,
+      },
+      borderRadius: {
+        ...defaultTheme.borderRadius,
+        xl: '1em'
       }
     },
     borderColor: theme => ({
@@ -29,5 +39,16 @@ module.exports = {
   variants: {
     borderWidth: ['responsive', 'last']
   },
-  plugins: []
+  plugins: [],
+  future: {
+    removeDeprecatedGapUtilities: true,
+  },
+  purge: {
+    enabled: isProduction,
+    content: [
+    './app/index.html',
+    './app/templates/**/*.hbs',
+    './app/components/**/*.hbs'
+    ]
+  },
 };

@@ -1,76 +1,58 @@
 export default [
   {
-    startTime: "09:15 am",
-    endTime: "09:45 am",
-    name: "Check-in",
-    topicDesc: "Check-in yourself at the desk outside Freshworks third floor cafeteria."
+    type: 'talk',
+    speaker: 'Bhuvaneshwari K',
+    handle: '',
+    profileLink: '',
+    profilePic: 'assets/images/meetup-4-sept-2020/bk.jpg',
+    startTime: "4:05pm",
+    endTime: "4:20pm",
+    title: "Contextual Component Design"
   },
   {
-    startTime: "10:00 am",
-    endTime: "10:30 am",
-    name: "Web development - The Past and the Present",
-    speaker: "Namburu Venkata Jaya Krishna",
-    speakerPic: "",
-    topicDesc: ""
+    type: 'talk',
+    speaker: 'Monisha S',
+    handle: '',
+    profileLink: '',
+    profilePic: 'assets/images/meetup-4-sept-2020/monisha.png',
+    startTime: "4:20pm",
+    endTime: "4:40pm",
+    title: "Progressive Web App using Ember"
   },
   {
-    startTime: "10:30 am",
-    endTime: "10:40 am",
-    name: "Picking a framework: React vs Angular vs Vue vs Ember",
-    speaker: "Michael Dinesh",
-    speakerPic: "",
-    topicDesc: ""
+    type: 'break',
+    startTime: "4:40pm",
+    endTime: "4:45pm",
+    title: "Break"
   },
   {
-    startTime: "10:40 am",
-    endTime: "10:50 am",
-    name: "Ember runloop",
-    speaker: "Raja S",
-    speakerPic: "",
-    topicDesc: ""
+    type: 'talk',
+    speaker: 'Kanalveli RA',
+    handle: '@kaelinralav',
+    profileLink: 'https://twitter.com/kaelinralav',
+    profilePic: 'assets/images/meetup-4-sept-2020/kanal.jpg',
+    startTime: "4:45pm",
+    endTime: "5:15pm",
+    title: "Sequential rendering with EmberJS"
   },
   {
-    startTime: "10:50 am",
-    endTime: "11:00 pm",
-    name: "Break",
-    isBreak: true
+    type: 'talk',
+    speaker: 'Saravana Kumar V',
+    handle: '',
+    profileLink: '',
+    profilePic: 'assets/images/meetup-4-sept-2020/sk.jpg',
+    startTime: "5:15pm",
+    endTime: "5:25pm",
+    title: "Degrading Ember Apps gracefully when offline"
   },
   {
-    startTime: "11:00 am",
-    endTime: "11:25 am",
-    name: "Ember Model & Relationships",
-    speaker: "Ahamed Althaf",
-    speakerPic: "",
-    topicDesc: ""
-  },
-  {
-    startTime: "11:25 am",
-    endTime: "11:50 am",
-    name: "Frame communication with ember",
-    speaker: "Kishore Kumar",
-    speakerPic: "",
-    topicDesc: ""
-  },
-  {
-    startTime: "11:50 am",
-    endTime: "12:00 pm",
-    name: "Break",
-    isBreak: true
-  },
-  {
-    startTime: "12:00 pm",
-    endTime: "12:30 pm",
-    name: "Design Systems using Storybook",
-    speaker: "Prasanth Lalapeta",
-    speakerPic: "",
-    topicDesc: ""
-  },
-  {
-    startTime: "12:30 pm",
-    endTime: "01:00 pm",
-    name: "Finite State Machines and Ember",
-    speaker: "Sankar Ganesh",
-    speakerPic: "",
-    topicDesc: ""
+    type: 'talk',
+    speaker: 'Rajasegar Chandiran',
+    handle: '@rajasegar_c',
+    profileLink: 'https://twitter.com/rajasegar_c',
+    profilePic: 'assets/images/meetup-4-sept-2020/rajasegar.jpg',
+    startTime: "5:25pm",
+    endTime: "5:50pm",
+    title: "Building Bridges to the DOM with Modifiers"
   }
-]
+];

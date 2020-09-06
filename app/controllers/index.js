@@ -1,6 +1,6 @@
 import Controller from '@ember/controller';
-import previousTalksList from '../data/previous-talks';
+import schedule from '../data/schedule';
 
 export default class IndexController extends Controller {
-  previousTalksList = previousTalksList
+  schedule = schedule;
 }
